@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if all elements were displayed correctly in Dashboard of KPI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6fe6091-7bf2-4d1d-8440-a5f0c37f06ca</testCaseGuid>
+</TestCaseEntity>
