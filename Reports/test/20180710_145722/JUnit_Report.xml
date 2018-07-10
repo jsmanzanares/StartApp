@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="69" tests="4" failures="0" errors="0">
+   <testsuite name="test" tests="4" failures="0" errors="0" time="69" timestamp="2018-07-10 14:57:29" hostname="jmanzanares - YSPC-STRATAPPQA.YouSource.Forest" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180710_145722"/>
+         <property name="logFiles" value="C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180710_145722\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180710_145722\\1531205916067.png"/>
+         <property name="hostName" value="jmanzanares - YSPC-STRATAPPQA.YouSource.Forest"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.1.74"/>
+         <property name="sessionId" value="bbfde1cb748c9d2ee302718628a3e56a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LOGIN/TempLogin" classname="Test Cases/LOGIN/TempLogin" status="PASSED">
+         <system-out><![CDATA[2018-07-10 14:57:29 - [TEST_CASE][PASSED] - Test Cases/LOGIN/TempLogin: Test Cases/LOGIN/TempLogin
+
+2018-07-10 14:57:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://dev-app.stratapp.ai/strategy/strategic-plan'
+
+2018-07-10 14:57:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-app.stratapp.ai/strategy/strategic-plan'
+
+2018-07-10 14:57:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-10 14:57:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-10 14:57:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/START_STRATEGISING_BUTTON' is clicked on
+
+2018-07-10 14:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/START_STRATEGISING_BUTTON' is clicked on
+
+2018-07-10 14:57:44 - [TEST_STEP][PASSED] - sendKeys: Keys 'jmanzanares@you-source.com' sent to object: 'Object Repository/Login/EMAIL_TEXTFIELD'
+
+2018-07-10 14:57:46 - [MESSAGE][PASSED] - Keys 'jmanzanares@you-source.com' sent to object: 'Object Repository/Login/EMAIL_TEXTFIELD'
+
+2018-07-10 14:57:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/NEXT_BUTTON' is clicked on
+
+2018-07-10 14:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/NEXT_BUTTON' is clicked on
+
+2018-07-10 14:57:46 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login/PASSWORD_TEXTFIELD' is present
+
+2018-07-10 14:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/PASSWORD_TEXTFIELD' is present
+
+2018-07-10 14:57:47 - [TEST_STEP][PASSED] - sendKeys: Keys '07iwbiSPL13' sent to object: 'Object Repository/Login/PASSWORD_TEXTFIELD'
+
+2018-07-10 14:57:47 - [MESSAGE][PASSED] - Keys '07iwbiSPL13' sent to object: 'Object Repository/Login/PASSWORD_TEXTFIELD'
+
+2018-07-10 14:57:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/SIGN_IN_BUTTON' is clicked on
+
+2018-07-10 14:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/SIGN_IN_BUTTON' is clicked on
+
+2018-07-10 14:58:27 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-10 14:58:27 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present in KPIs Dashboard" classname="Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present in KPIs Dashboard" status="PASSED">
+         <system-out><![CDATA[2018-07-10 14:58:27 - [TEST_CASE][PASSED] - Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present in KPIs Dashboard: Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present in KPIs Dashboard
+
+2018-07-10 14:58:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/MENU/KPI_LINK' is clicked on
+
+2018-07-10 14:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/MENU/KPI_LINK' is clicked on
+
+2018-07-10 14:58:27 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_1YEAR_LINK' is present
+
+2018-07-10 14:58:32 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_1YEAR_LINK' is present
+
+2018-07-10 14:58:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_7DAYS_LINK' is present
+
+2018-07-10 14:58:32 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_7DAYS_LINK' is present
+
+2018-07-10 14:58:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/SCREEN_VERIFICATION/KPI/Verify if KPIs topics were displayed' successfully
+
+2018-07-10 14:58:32 - [TEST_CASE][PASSED] - Test Cases/SCREEN_VERIFICATION/KPI/Verify if KPIs topics were displayed: Test Cases/SCREEN_VERIFICATION/KPI/Verify if KPIs topics were displayed
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/TOPICS/DASHBOARD_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TOPICS/DASHBOARD_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/TOPICS/MY_KPI_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TOPICS/MY_KPI_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/TOPICS/SCORECARD_KPI_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TOPICS/SCORECARD_KPI_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/TOPICS/STRATEGIC_KPI_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TOPICS/STRATEGIC_KPI_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/TOPICS/TRENDING_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TOPICS/TRENDING_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SCREEN_VERIFICATION/KPI/Verify if KPIs topics were displayed' successfully
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_28DAYS_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_28DAYS_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_90DAYS_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_90DAYS_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_6MONTHS_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_6MONTHS_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ALL_TIME_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ALL_TIME_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_1YEAR_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_1YEAR_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_INTERACTIONS_BUTTON' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_INTERACTIONS_BUTTON' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_VIEWS_BUTTON' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_VIEWS_BUTTON' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ON_TRACK_BUTTON' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ON_TRACK_BUTTON' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_NEEDS_ACTION_BUTTON' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_NEEDS_ACTION_BUTTON' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_LATE_BUTTON' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_LATE_BUTTON' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ACHIEVED_BUTTON' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ACHIEVED_BUTTON' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ON_TRACK_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ON_TRACK_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_NEEDS_ACTION_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_NEEDS_ACTION_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_LATE_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_LATE_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ACHIEVED_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ACHIEVED_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_7DAYS_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_7DAYS_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_28DAYS_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_28DAYS_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_90DAYS_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_90DAYS_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_6MONTHS_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_6MONTHS_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_1YEAR_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_1YEAR_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ALL_TIME_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ALL_TIME_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_INTERACTIONS_BUTTON' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_INTERACTIONS_BUTTON' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_VIEWS_BUTTON' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_VIEWS_BUTTON' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ON_TRACK_BUTTON' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ON_TRACK_BUTTON' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_NEEDS_ACTION_BUTTON' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_NEEDS_ACTION_BUTTON' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_LATE_BUTTON' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_LATE_BUTTON' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ACHIEVED_BUTTON' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ACHIEVED_BUTTON' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ON_TRACK_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ON_TRACK_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_NEEDS_ACTION_LINK' is present
+
+2018-07-10 14:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_NEEDS_ACTION_LINK' is present
+
+2018-07-10 14:58:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_LATE_LINK' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_LATE_LINK' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ACHIEVED_LINK' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ACHIEVED_LINK' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social' successfully
+
+2018-07-10 14:58:34 - [TEST_CASE][PASSED] - Test Cases/SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social: Test Cases/SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/ADD_COMMENT_TEXTFIELD' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/ADD_COMMENT_TEXTFIELD' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SOCIALS/COMMENTS/COMMENT_BUTTON' is clicked on
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/SOCIALS/COMMENTS/COMMENT_BUTTON' is clicked on
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_APPROVAL_BUTTON' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_APPROVAL_BUTTON' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_DECISION_BUTTON' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_DECISION_BUTTON' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_NOTE_BUTTON' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_NOTE_BUTTON' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_RESPONSE_BUTTON' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_RESPONSE_BUTTON' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_APPROVAL_BUTTON' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_APPROVAL_BUTTON' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_COMMENT_BUTTON' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_COMMENT_BUTTON' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_DECISION_BUTTON' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_DECISION_BUTTON' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_DISAGREE_BUTTON' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_DISAGREE_BUTTON' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_NOTE_BUTTON' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_NOTE_BUTTON' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_QUESTION_BUTTON' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_QUESTION_BUTTON' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_TASK_BUTTON' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_TASK_BUTTON' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SCREEN_VERIFICATION/KPI/TRENDING/Verify if all elements are present in KPIs Trending" classname="Test Cases/SCREEN_VERIFICATION/KPI/TRENDING/Verify if all elements are present in KPIs Trending" status="PASSED">
+         <system-out><![CDATA[2018-07-10 14:58:34 - [TEST_CASE][PASSED] - Test Cases/SCREEN_VERIFICATION/KPI/TRENDING/Verify if all elements are present in KPIs Trending: Test Cases/SCREEN_VERIFICATION/KPI/TRENDING/Verify if all elements are present in KPIs Trending
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/MENU/KPI_LINK' is clicked on
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/MENU/KPI_LINK' is clicked on
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_1YEAR_LINK' is present
+
+2018-07-10 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_1YEAR_LINK' is present
+
+2018-07-10 14:58:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/KPI/TOPICS/TRENDING_LINK' is clicked on
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/KPI/TOPICS/TRENDING_LINK' is clicked on
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/KPI/TRENDING/LEADERBOARD_HEADER' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TRENDING/LEADERBOARD_HEADER' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/TRENDING/LEADERBOARD_HEADER' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TRENDING/LEADERBOARD_HEADER' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/SCREEN_VERIFICATION/KPI/Verify if KPIs topics were displayed' successfully
+
+2018-07-10 14:58:35 - [TEST_CASE][PASSED] - Test Cases/SCREEN_VERIFICATION/KPI/Verify if KPIs topics were displayed: Test Cases/SCREEN_VERIFICATION/KPI/Verify if KPIs topics were displayed
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/TOPICS/DASHBOARD_LINK' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TOPICS/DASHBOARD_LINK' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/TOPICS/MY_KPI_LINK' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TOPICS/MY_KPI_LINK' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/TOPICS/SCORECARD_KPI_LINK' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TOPICS/SCORECARD_KPI_LINK' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/TOPICS/STRATEGIC_KPI_LINK' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TOPICS/STRATEGIC_KPI_LINK' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/TOPICS/TRENDING_LINK' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TOPICS/TRENDING_LINK' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SCREEN_VERIFICATION/KPI/Verify if KPIs topics were displayed' successfully
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/TRENDING/FILES_HEADER' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TRENDING/FILES_HEADER' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/TRENDING/SOCIAL_HEADER' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TRENDING/SOCIAL_HEADER' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/TRENDING/FEED_HEADER' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/TRENDING/FEED_HEADER' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social' successfully
+
+2018-07-10 14:58:35 - [TEST_CASE][PASSED] - Test Cases/SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social: Test Cases/SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/ADD_COMMENT_TEXTFIELD' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/ADD_COMMENT_TEXTFIELD' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SOCIALS/COMMENTS/COMMENT_BUTTON' is clicked on
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/SOCIALS/COMMENTS/COMMENT_BUTTON' is clicked on
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_APPROVAL_BUTTON' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_APPROVAL_BUTTON' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_DECISION_BUTTON' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_DECISION_BUTTON' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_NOTE_BUTTON' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_NOTE_BUTTON' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_RESPONSE_BUTTON' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_RESPONSE_BUTTON' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_APPROVAL_BUTTON' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_APPROVAL_BUTTON' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_COMMENT_BUTTON' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_COMMENT_BUTTON' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_DECISION_BUTTON' is present
+
+2018-07-10 14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_DECISION_BUTTON' is present
+
+2018-07-10 14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_DISAGREE_BUTTON' is present
+
+2018-07-10 14:58:36 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_DISAGREE_BUTTON' is present
+
+2018-07-10 14:58:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_NOTE_BUTTON' is present
+
+2018-07-10 14:58:36 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_NOTE_BUTTON' is present
+
+2018-07-10 14:58:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_QUESTION_BUTTON' is present
+
+2018-07-10 14:58:36 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_QUESTION_BUTTON' is present
+
+2018-07-10 14:58:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_TASK_BUTTON' is present
+
+2018-07-10 14:58:36 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_TASK_BUTTON' is present
+
+2018-07-10 14:58:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social' successfully
+
+2018-07-10 14:58:36 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-07-10 14:58:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180710_145722\\1531205916067.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SCREEN_VERIFICATION/IDEATION/Verify if Ideation topics were displayed" classname="Test Cases/SCREEN_VERIFICATION/IDEATION/Verify if Ideation topics were displayed" status="PASSED">
+         <system-out><![CDATA[2018-07-10 14:58:36 - [TEST_CASE][PASSED] - Test Cases/SCREEN_VERIFICATION/IDEATION/Verify if Ideation topics were displayed: Test Cases/SCREEN_VERIFICATION/IDEATION/Verify if Ideation topics were displayed
+
+2018-07-10 14:58:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/MENU/IDEATION_LINK' is clicked on
+
+2018-07-10 14:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/MENU/IDEATION_LINK' is clicked on
+
+2018-07-10 14:58:36 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/IDEATION/DASHBOARD_LINK' is present
+
+2018-07-10 14:58:36 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/DASHBOARD_LINK' is present
+
+2018-07-10 14:58:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/IDEATION/DASHBOARD_LINK' is present
+
+2018-07-10 14:58:36 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/DASHBOARD_LINK' is present
+
+2018-07-10 14:58:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/IDEATION/CHALLENGES_LINK' is present
+
+2018-07-10 14:58:38 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/CHALLENGES_LINK' is present
+
+2018-07-10 14:58:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/IDEATION/IDEAS_LINK' is present
+
+2018-07-10 14:58:38 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/IDEAS_LINK' is present
+
+2018-07-10 14:58:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/IDEATION/INNOVATORS_LINK' is present
+
+2018-07-10 14:58:38 - [MESSAGE][PASSED] - Object 'Object Repository/IDEATION/INNOVATORS_LINK' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 14:57:29 - [TEST_SUITE][PASSED] - test: Test Cases/SCREEN_VERIFICATION/IDEATION/Verify if Ideation topics were displayed]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
