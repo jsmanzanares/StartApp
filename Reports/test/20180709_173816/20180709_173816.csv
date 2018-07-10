@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,,,2018-07-09 17:38:21,2018-07-09 17:38:22,0.980s,FAILED
+,,,,,,
+Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements were displayed correctly in Dashboard of KPI,,,2018-07-09 17:38:21,2018-07-09 17:38:21,0.610s,FAILED
+navigateToUrl,,,2018-07-09 17:38:21,2018-07-09 17:38:21,0.340s,FAILED

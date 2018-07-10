@@ -4,10 +4,16 @@
    <name>IDEATION_LINK</name>
    <tag></tag>
    <elementGuidId>9b58ac25-2862-4f39-8767-b8799d0ebe76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'ideation' or . = 'ideation')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

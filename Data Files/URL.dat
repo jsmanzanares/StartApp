@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>URL</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>60b32c6c-ecaf-4bc2-94d6-946d73a5bd3d</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fstrategy%2Fstrategic-plan Login</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fstrategy%2Fstrategic-plan strategy%3Estrategy+plan</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fstrategy%2Fdashboard strategy%3Edashboard</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fstrategy%2Ftrending strategy%3Etreding</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fstrategy%2Ftrending strategy%3Etasks</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fstrategy%2Frisk-mitigation strategy%3Erisk</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fstrategy%2Fvision strategy%3Evision</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fstrategy%2Four-why strategy%3Ewhy</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fstrategy%2Fstrategic-direction strategy%3Edirection</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fkpi%2Fdashboard KPI</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fkpi%2Fdashboard KPI%3Edashboard</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fkpi%2Ftrending KPI%3Etrending</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fkpi%2Fstrategic KPI%3Estrategic+KPIs</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fkpi%2Fscorecard KPI%3Escorecard+KPIs</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fkpi%2Fmy-kpi my+KPIs</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fideation%2Fdashboard ideation</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fideation%2Fdashboard ideation%3Edashboard</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fideation%2Fchallenges ideation%3Echallenges</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fideation%2Fideas ideation%3Eideas</data>
+   <data>https%3A%2F%2Fdev-app.stratapp.ai%2Fideation%2Finnovators ideation%3Einnovators</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>varURL</name>
+      <size>20</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Description</name>
+      <size>20</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

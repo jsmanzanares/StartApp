@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="93" tests="0" failures="1" errors="0">
+   <testsuite name="test" tests="0" failures="1" errors="0" time="93" timestamp="2018-07-10 11:18:10" hostname="jmanzanares - YSPC-STRATAPPQA.YouSource.Forest" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180710_111805"/>
+         <property name="logFiles" value="C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180710_111805\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180710_111805\\1531192782700.png, C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180710_111805\\1531192783063.png"/>
+         <property name="hostName" value="jmanzanares - YSPC-STRATAPPQA.YouSource.Forest"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.1.74"/>
+         <property name="sessionId" value="5a4e4ba72cf0b2eae8f73db28352b6e3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present in KPIs Dashboard" classname="Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present in KPIs Dashboard" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' located by 'By.xpath: ' not found)"/>
+         <system-out><![CDATA[2018-07-10 11:18:11 - [TEST_CASE][FAILED] - Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present in KPIs Dashboard: Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present in KPIs Dashboard FAILED because (of) Unable to verify object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' located by 'By.xpath: ' not found)
+
+2018-07-10 11:18:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://dev-app.stratapp.ai/strategy/strategic-plan'
+
+2018-07-10 11:18:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-app.stratapp.ai/strategy/strategic-plan'
+
+2018-07-10 11:18:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-10 11:18:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-10 11:18:37 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-10 11:18:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-10 11:18:37 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/HomePage/MENU/STRATEGY_LINK' is present
+
+2018-07-10 11:19:33 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/MENU/STRATEGY_LINK' is present
+
+2018-07-10 11:19:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/MENU/KPI_LINK' is clicked on
+
+2018-07-10 11:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/MENU/KPI_LINK' is clicked on
+
+2018-07-10 11:19:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_1YEAR_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_1YEAR_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_7DAYS_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_7DAYS_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_28DAYS_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_28DAYS_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_90DAYS_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_90DAYS_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_6MONTHS_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_6MONTHS_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ALL_TIME_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ALL_TIME_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_1YEAR_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_1YEAR_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_INTERACTIONS_BUTTON' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_INTERACTIONS_BUTTON' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_VIEWS_BUTTON' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_VIEWS_BUTTON' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ON_TRACK_BUTTON' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ON_TRACK_BUTTON' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_NEEDS_ACTION_BUTTON' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_NEEDS_ACTION_BUTTON' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_LATE_BUTTON' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_LATE_BUTTON' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ACHIEVED_BUTTON' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ACHIEVED_BUTTON' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ON_TRACK_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ON_TRACK_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_NEEDS_ACTION_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_NEEDS_ACTION_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_LATE_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_LATE_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ACHIEVED_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ACHIEVED_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_7DAYS_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_7DAYS_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_28DAYS_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_28DAYS_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_90DAYS_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_90DAYS_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_6MONTHS_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_6MONTHS_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_1YEAR_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_1YEAR_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ALL_TIME_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ALL_TIME_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_INTERACTIONS_BUTTON' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_INTERACTIONS_BUTTON' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_VIEWS_BUTTON' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_VIEWS_BUTTON' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ON_TRACK_BUTTON' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ON_TRACK_BUTTON' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_NEEDS_ACTION_BUTTON' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_NEEDS_ACTION_BUTTON' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_LATE_BUTTON' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_LATE_BUTTON' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ACHIEVED_BUTTON' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ACHIEVED_BUTTON' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ON_TRACK_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ON_TRACK_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_NEEDS_ACTION_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_NEEDS_ACTION_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_LATE_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_LATE_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ACHIEVED_LINK' is present
+
+2018-07-10 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/ME_DASHBOARD/ME_ACHIEVED_LINK' is present
+
+2018-07-10 11:19:36 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social' (Root cause: Call Test Case 'Test Cases/SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social' failed)
+
+2018-07-10 11:19:37 - [TEST_CASE][FAILED] - Test Cases/SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social: Test Cases/SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social FAILED because (of) Unable to verify object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' located by 'By.xpath: ' not found)
+
+2018-07-10 11:19:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/ADD_COMMENT_TEXTFIELD' is present
+
+2018-07-10 11:19:37 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/ADD_COMMENT_TEXTFIELD' is present
+
+2018-07-10 11:19:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SOCIALS/COMMENTS/COMMENT_BUTTON' is clicked on
+
+2018-07-10 11:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/SOCIALS/COMMENTS/COMMENT_BUTTON' is clicked on
+
+2018-07-10 11:19:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_APPROVAL_BUTTON' is present
+
+2018-07-10 11:19:37 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_APPROVAL_BUTTON' is present
+
+2018-07-10 11:19:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_DECISION_BUTTON' is present
+
+2018-07-10 11:19:37 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_DECISION_BUTTON' is present
+
+2018-07-10 11:19:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_NOTE_BUTTON' is present
+
+2018-07-10 11:19:37 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_NOTE_BUTTON' is present
+
+2018-07-10 11:19:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_RESPONSE_BUTTON' is present
+
+2018-07-10 11:19:37 - [MESSAGE][PASSED] - Object 'Object Repository/SOCIALS/COMMENTS/REQUEST_RESPONSE_BUTTON' is present
+
+2018-07-10 11:19:37 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' located by 'By.xpath: ' not found)
+
+2018-07-10 11:19:43 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' located by 'By.xpath: ' not found
+[[ATTACHMENT|C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180710_111805\\1531192782700.png]]
+
+2018-07-10 11:19:43 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' located by 'By.xpath: ' not found)
+[[ATTACHMENT|C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180710_111805\\1531192783063.png]]
+
+2018-07-10 11:19:43 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social' (Root cause: Call Test Case 'Test Cases/SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social' failed)]]></system-out>
+         <system-err><![CDATA[2018-07-10 11:18:11 - [TEST_CASE][FAILED] - Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present in KPIs Dashboard: Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present in KPIs Dashboard FAILED because (of) Unable to verify object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' located by 'By.xpath: ' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-10 11:18:10 - [TEST_SUITE][FAILED] - test: Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present in KPIs Dashboard FAILED because (of) Unable to verify object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' located by 'By.xpath: ' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-10 11:18:10 - [TEST_SUITE][FAILED] - test: Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present in KPIs Dashboard FAILED because (of) Unable to verify object 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON' located by 'By.xpath: ' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="0" tests="0" failures="1" errors="0">
+   <testsuite name="test" tests="0" failures="1" errors="0" time="0" timestamp="2018-07-09 17:38:21" hostname="jmanzanares - YSPC-STRATAPPQA.YouSource.Forest" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180709_173816"/>
+         <property name="logFiles" value="C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180709_173816\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jmanzanares - YSPC-STRATAPPQA.YouSource.Forest"/>
+         <property name="hostAddress" value="192.168.1.74"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+      </properties>
+      <testcase name="Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements were displayed correctly in Dashboard of KPI" classname="Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements were displayed correctly in Dashboard of KPI" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)"/>
+         <system-out><![CDATA[2018-07-09 17:38:21 - [TEST_CASE][FAILED] - Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements were displayed correctly in Dashboard of KPI: Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements were displayed correctly in Dashboard of KPI FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+
+2018-07-09 17:38:21 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+
+2018-07-09 17:38:21 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-09 17:38:21 - [MESSAGE][FAILED] - Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-out>
+         <system-err><![CDATA[2018-07-09 17:38:21 - [TEST_CASE][FAILED] - Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements were displayed correctly in Dashboard of KPI: Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements were displayed correctly in Dashboard of KPI FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-09 17:38:21 - [TEST_SUITE][FAILED] - test: Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements were displayed correctly in Dashboard of KPI FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-out>
+      <system-err><![CDATA[2018-07-09 17:38:21 - [TEST_SUITE][FAILED] - test: Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements were displayed correctly in Dashboard of KPI FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-err>
+   </testsuite>
+</testsuites>

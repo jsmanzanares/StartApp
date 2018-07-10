@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TempLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5397f3b-ab97-4710-90a3-4149aa7fef12</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>91c51e24-0c5f-4f6b-b62b-22d41b4f5114</id>
+      <masked>false</masked>
+      <name>varURL</name>
+   </variable>
+</TestCaseEntity>

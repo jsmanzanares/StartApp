@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,Chrome 67.0.3396.99,,2018-07-09 17:57:10,2018-07-09 17:57:20,10.419s,PASSED
+,,,,,,
+Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present,Chrome 67.0.3396.99,,2018-07-09 17:57:10,2018-07-09 17:57:20,9.468s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-09 17:57:10,2018-07-09 17:57:20,9.248s,PASSED

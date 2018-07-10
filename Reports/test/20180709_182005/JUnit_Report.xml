@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="38" tests="1" failures="0" errors="0">
+   <testsuite name="test" tests="1" failures="0" errors="0" time="38" timestamp="2018-07-09 18:20:10" hostname="jmanzanares - YSPC-STRATAPPQA.YouSource.Forest" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180709_182005"/>
+         <property name="logFiles" value="C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180709_182005\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jmanzanares - YSPC-STRATAPPQA.YouSource.Forest"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.1.74"/>
+         <property name="sessionId" value="05c68037ede4e76b5e9156a2e9395b9a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present" classname="Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present" status="PASSED">
+         <system-out><![CDATA[2018-07-09 18:20:10 - [TEST_CASE][PASSED] - Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present: Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present
+
+2018-07-09 18:20:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://dev-app.stratapp.ai/strategy/strategic-plan'
+
+2018-07-09 18:20:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-app.stratapp.ai/strategy/strategic-plan'
+
+2018-07-09 18:20:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-09 18:20:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 18:20:19 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/HomePage/MENU/STRATEGY_LINK' is present
+
+2018-07-09 18:20:47 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/MENU/STRATEGY_LINK' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-09 18:20:10 - [TEST_SUITE][PASSED] - test: Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

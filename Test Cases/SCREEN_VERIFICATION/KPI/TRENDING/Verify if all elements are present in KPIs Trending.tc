@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if all elements are present in KPIs Trending</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1c39c57-341c-46f3-bd3c-bf1079797b5e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6bf0f867-513d-45ce-94f8-daeb855e3c54</id>
+      <masked>false</masked>
+      <name>varURL</name>
+   </variable>
+</TestCaseEntity>

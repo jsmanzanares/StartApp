@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,,,2018-07-09 17:46:21,2018-07-09 17:46:22,0.847s,ERROR
+,,,,,,
+Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present,,,2018-07-09 17:46:21,2018-07-09 17:46:22,0.440s,ERROR
+verifyAlertNotPresent,,,2018-07-09 17:46:22,2018-07-09 17:46:22,0.011s,PASSED

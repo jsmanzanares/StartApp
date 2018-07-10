@@ -19,5 +19,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('')
+WebUI.verifyElementPresent(findTestObject('SOCIALS/COMMENTS/ADD_COMMENT_TEXTFIELD'), 5)
+
+WebUI.click(findTestObject('SOCIALS/COMMENTS/COMMENT_BUTTON'))
+
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('SOCIALS/COMMENTS/REQUEST_APPROVAL_BUTTON'), 5)
+
+WebUI.verifyElementPresent(findTestObject('SOCIALS/COMMENTS/REQUEST_DECISION_BUTTON'), 5)
+
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('SOCIALS/COMMENTS/REQUEST_NOTE_BUTTON'), 5)
+
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('SOCIALS/COMMENTS/REQUEST_RESPONSE_BUTTON'), 5)
+
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('SOCIALS/COMMENTS/RESPONSE_AGREE_BUTTON'), 5)
+
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('SOCIALS/COMMENTS/RESPONSE_APPROVAL_BUTTON'), 5)
+
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('SOCIALS/COMMENTS/RESPONSE_COMMENT_BUTTON'), 5)
+
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('SOCIALS/COMMENTS/RESPONSE_DECISION_BUTTON'), 5)
+
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('SOCIALS/COMMENTS/RESPONSE_DISAGREE_BUTTON'), 5)
+
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('SOCIALS/COMMENTS/RESPONSE_NOTE_BUTTON'), 5)
+
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('SOCIALS/COMMENTS/RESPONSE_QUESTION_BUTTON'), 5)
+
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('SOCIALS/COMMENTS/RESPONSE_TASK_BUTTON'), 5)
 

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,Chrome 67.0.3396.99,,2018-07-09 18:17:50,2018-07-09 18:18:34,43.751s,PASSED
+,,,,,,
+Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present,Chrome 67.0.3396.99,,2018-07-09 18:17:50,2018-07-09 18:18:33,42.745s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-09 18:17:50,2018-07-09 18:18:00,9.433s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-09 18:18:00,2018-07-09 18:18:00,0.146s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-09 18:18:00,2018-07-09 18:18:33,32.921s,PASSED

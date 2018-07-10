@@ -21,7 +21,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//*[text()='response']/following-sibling::button//*[text()='agree']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="62" tests="1" failures="0" errors="0">
+   <testsuite name="test" tests="1" failures="0" errors="0" time="62" timestamp="2018-07-09 18:29:06" hostname="jmanzanares - YSPC-STRATAPPQA.YouSource.Forest" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180709_182900"/>
+         <property name="logFiles" value="C:\\Users\\jmanzanares\\git\\StartApp\\Reports\\test\\20180709_182900\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jmanzanares - YSPC-STRATAPPQA.YouSource.Forest"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.1.74"/>
+         <property name="sessionId" value="11f0545090bfcfc974047b3ddd69d79f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present" classname="Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present" status="PASSED">
+         <system-out><![CDATA[2018-07-09 18:29:07 - [TEST_CASE][PASSED] - Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present: Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present
+
+2018-07-09 18:29:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://dev-app.stratapp.ai/strategy/strategic-plan'
+
+2018-07-09 18:29:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-app.stratapp.ai/strategy/strategic-plan'
+
+2018-07-09 18:29:17 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-09 18:29:19 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 18:29:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-09 18:29:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 18:29:19 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/HomePage/MENU/STRATEGY_LINK' is not present after 30 second(s)
+
+2018-07-09 18:29:51 - [MESSAGE][WARNING] - Object 'Object Repository/HomePage/MENU/STRATEGY_LINK' is not present after 30 second(s)
+
+2018-07-09 18:29:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/MENU/KPI_LINK' is clicked on
+
+2018-07-09 18:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/MENU/KPI_LINK' is clicked on
+
+2018-07-09 18:30:05 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_1YEAR_LINK' is present
+
+2018-07-09 18:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_1YEAR_LINK' is present
+
+2018-07-09 18:30:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_1YEAR_LINK' is present
+
+2018-07-09 18:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_1YEAR_LINK' is present
+
+2018-07-09 18:30:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_28DAYS_LINK' is present
+
+2018-07-09 18:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_28DAYS_LINK' is present
+
+2018-07-09 18:30:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_6MONTHS_LINK' is present
+
+2018-07-09 18:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_6MONTHS_LINK' is present
+
+2018-07-09 18:30:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_7DAYS_LINK' is present
+
+2018-07-09 18:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_7DAYS_LINK' is present
+
+2018-07-09 18:30:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_90DAYS_LINK' is present
+
+2018-07-09 18:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_90DAYS_LINK' is present
+
+2018-07-09 18:30:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ACHIEVED_BUTTON' is present
+
+2018-07-09 18:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ACHIEVED_BUTTON' is present
+
+2018-07-09 18:30:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ACHIEVED_LINK' is present
+
+2018-07-09 18:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ACHIEVED_LINK' is present
+
+2018-07-09 18:30:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ALL_TIME_LINK' is present
+
+2018-07-09 18:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ALL_TIME_LINK' is present
+
+2018-07-09 18:30:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_INTERACTIONS_BUTTON' is present
+
+2018-07-09 18:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_INTERACTIONS_BUTTON' is present
+
+2018-07-09 18:30:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_LATE_BUTTON' is present
+
+2018-07-09 18:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_LATE_BUTTON' is present
+
+2018-07-09 18:30:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_LATE_LINK' is present
+
+2018-07-09 18:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_LATE_LINK' is present
+
+2018-07-09 18:30:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_NEEDS_ACTION_BUTTON' is present
+
+2018-07-09 18:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_NEEDS_ACTION_BUTTON' is present
+
+2018-07-09 18:30:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_NEEDS_ACTION_LINK' is present
+
+2018-07-09 18:30:08 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_NEEDS_ACTION_LINK' is present
+
+2018-07-09 18:30:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ON_TRACK_BUTTON' is present
+
+2018-07-09 18:30:08 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ON_TRACK_BUTTON' is present
+
+2018-07-09 18:30:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ON_TRACK_LINK' is present
+
+2018-07-09 18:30:08 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_ON_TRACK_LINK' is present
+
+2018-07-09 18:30:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_VIEWS_BUTTON' is present
+
+2018-07-09 18:30:08 - [MESSAGE][PASSED] - Object 'Object Repository/KPI/DASHBOARD/COMPANY_DASHBOARD/COMP_VIEWS_BUTTON' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-09 18:29:06 - [TEST_SUITE][PASSED] - test: Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
