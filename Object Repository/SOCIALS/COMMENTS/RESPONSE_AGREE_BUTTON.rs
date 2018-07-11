@@ -6,6 +6,10 @@
    <elementGuidId>ad33b236-9373-466b-bc46-5cb6d0bf59df</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[text()='response']/following-sibling::button//*[text()='agree']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//button[@type = 'button' and (text() = '
               
@@ -18,10 +22,6 @@
               
               agree
             ')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[text()='response']/following-sibling::button//*[text()='agree']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

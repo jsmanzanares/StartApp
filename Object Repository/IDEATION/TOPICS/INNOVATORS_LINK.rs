@@ -4,6 +4,16 @@
    <name>INNOVATORS_LINK</name>
    <tag></tag>
    <elementGuidId>9c7510eb-db09-4deb-94d5-29820e235485</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'innovators' or . = 'innovators')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
