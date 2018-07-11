@@ -4,7 +4,7 @@
    <name>test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-10T18:08:02</lastRun>
+   <lastRun>2018-07-11T17:08:06</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -36,7 +36,7 @@
       <guid>c360bc38-2122-41a7-ad91-e3faf77a3770</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SCREEN_VERIFICATION/KPI/DASHBOARD/Verify if all elements are present in KPIs Dashboard</testCaseId>
+      <testCaseId>Test Cases/SCREEN_VERIFICATION/KPI/Verify if all elements are present in KPIs Dashboard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ae467232-67e5-43f3-9c35-bb6e4bb739d5</id>
@@ -57,7 +57,7 @@
       <guid>fe5f133b-2029-44d8-b27d-1ff8849319c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SCREEN_VERIFICATION/KPI/TRENDING/Verify if all elements are present in KPIs Trending</testCaseId>
+      <testCaseId>Test Cases/SCREEN_VERIFICATION/KPI/Verify if all elements are present in KPIs Trending</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -76,5 +76,29 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SCREEN_VERIFICATION/STRATEGY/Verify if all elements are present in Strategy Dashboard</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>64810e32-8538-47d4-aeb4-b492a59d1d99</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SCREEN_VERIFICATION/STRATEGY/Verify if all elements are present in Strategy Trending</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1c0ae12f-c48e-40e5-92c4-349c99b3dc09</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SCREEN_VERIFICATION/STRATEGY/Verify if all elements are present in Strategy Vision</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4da9a93e-4aa4-49d3-8758-7ce5b0c276a9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SCREEN_VERIFICATION/STRATEGY/Verify if all elements are present in Strategy Why</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>94c82fea-e8a2-4552-bad2-5aa8d9274c9a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SCREEN_VERIFICATION/STRATEGY/Verify if all elements are present in Strategy Direction</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

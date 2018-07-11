@@ -23,6 +23,8 @@ WebUiBuiltInKeywords.click(findTestObject('HomePage/MENU/STRATEGY_LINK'))
 
 WebUI.waitForElementClickable(findTestObject('STRATEGY/TOPICS/TRENDING_LINK'), 15)
 
+WebUiBuiltInKeywords.mouseOver(findTestObject('STRATEGY/TOPICS/TRENDING_LINK'))
+
 WebUiBuiltInKeywords.click(findTestObject('STRATEGY/TOPICS/TRENDING_LINK'))
 
 WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/TRENDING/LEADERBOARD_HEADER'), 10)

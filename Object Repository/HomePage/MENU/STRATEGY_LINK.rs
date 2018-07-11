@@ -6,6 +6,10 @@
    <elementGuidId>7f117234-46e4-4c01-b3ed-2177407d6b0a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'strategy' or . = 'strategy')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//span[(text() = 'strategy' or . = 'strategy')]</value>
       </entry>
@@ -16,7 +20,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

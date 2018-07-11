@@ -21,9 +21,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('HomePage/MENU/STRATEGY_LINK'))
 
-WebUI.waitForElementPresent(findTestObject('STRATEGY/TOPICS/STRAT_PLAN_LINK'), 5)
+WebUI.waitForPageLoad(15)
 
-WebUiBuiltInKeywords.waitForElementClickable(findTestObject('KPI/TOPICS/DASHBOARD_LINK'), 10)
+WebUiBuiltInKeywords.waitForElementClickable(findTestObject('STRATEGY/TOPICS/DASHBOARD_LINK'), 10)
+
+WebUiBuiltInKeywords.mouseOver(findTestObject('STRATEGY/TOPICS/DASHBOARD_LINK'))
 
 WebUiBuiltInKeywords.click(findTestObject('STRATEGY/TOPICS/DASHBOARD_LINK'))
 

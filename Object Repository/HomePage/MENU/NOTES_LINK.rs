@@ -4,10 +4,16 @@
    <name>NOTES_LINK</name>
    <tag></tag>
    <elementGuidId>e28af1a7-2b13-4bcc-8c1e-6d85f3db46ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'notes' or . = 'notes')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

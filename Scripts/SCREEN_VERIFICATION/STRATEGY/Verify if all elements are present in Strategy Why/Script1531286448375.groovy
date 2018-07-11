@@ -19,21 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(varURL)
+WebUiBuiltInKeywords.click(findTestObject('HomePage/MENU/STRATEGY_LINK'))
 
-WebUI.maximizeWindow()
+WebUI.waitForElementClickable(findTestObject('STRATEGY/TOPICS/WHY_LINK'), 15)
 
-WebUiBuiltInKeywords.click(findTestObject('Login/START_STRATEGISING_BUTTON'))
+WebUiBuiltInKeywords.mouseOver(findTestObject('STRATEGY/TOPICS/WHY_LINK'))
 
-WebUI.sendKeys(findTestObject('Login/EMAIL_TEXTFIELD'), 'noreply@you-source.com')
+WebUiBuiltInKeywords.click(findTestObject('STRATEGY/TOPICS/WHY_LINK'))
 
-WebUI.click(findTestObject('Login/NEXT_BUTTON'))
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/WHY/OUR_WHY_HEADER'), 10)
 
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Login/PASSWORD_TEXTFIELD'), 5)
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/WHY/OUR_HOW_HEADER'), 5)
 
-WebUiBuiltInKeywords.sendKeys(findTestObject('Login/PASSWORD_TEXTFIELD'), 'yousource321')
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/WHY/OUR_WHAT_HEADER'), 5)
 
-WebUiBuiltInKeywords.click(findTestObject('Login/SIGN_IN_BUTTON'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementPresent(findTestObject('HomePage/MENU/STRATEGY_LINK'), 15)
+WebUI.callTestCase(findTestCase('SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social'), [:], FailureHandling.STOP_ON_FAILURE)
 
