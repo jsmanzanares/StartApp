@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if all elements are present in Strategy Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>96dbfb32-760f-44cf-8736-e19b29d179fd</testCaseGuid>
+</TestCaseEntity>

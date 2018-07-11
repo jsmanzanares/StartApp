@@ -19,15 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('HomePage/MENU/IDEATION_LINK'))
+WebUiBuiltInKeywords.click(findTestObject('HomePage/MENU/STRATEGY_LINK'))
 
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('IDEATION/TOPICS/DASHBOARD_LINK'), 5)
+WebUI.waitForElementClickable(findTestObject('STRATEGY/TOPICS/TRENDING_LINK'), 15)
 
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('IDEATION/TOPICS/DASHBOARD_LINK'), 5)
+WebUiBuiltInKeywords.click(findTestObject('STRATEGY/TOPICS/TRENDING_LINK'))
 
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('IDEATION/TOPICS/CHALLENGES_LINK'), 5)
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/TRENDING/LEADERBOARD_HEADER'), 10)
 
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('IDEATION/TOPICS/IDEAS_LINK'), 5)
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/TRENDING/FILES_HEADER'), 5)
 
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('IDEATION/TOPICS/INNOVATORS_LINK'), 5)
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/TRENDING/SOCIAL_HEADER'), 5)
+
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/TRENDING/FEED_HEADER'), 5)
+
+WebUI.callTestCase(findTestCase('SCREEN_VERIFICATION/SOCIAL/Verify if all elements are present in Social'), [:], FailureHandling.STOP_ON_FAILURE)
 

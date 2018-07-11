@@ -4,7 +4,7 @@
    <name>test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-10T14:57:22</lastRun>
+   <lastRun>2018-07-10T18:08:02</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -70,5 +70,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SCREEN_VERIFICATION/IDEATION/Verify if Ideation topics were displayed</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1e5fef69-5453-4c12-8aa2-b369e2c782fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SCREEN_VERIFICATION/STRATEGY/Verify if all elements are present in Strategy Dashboard</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

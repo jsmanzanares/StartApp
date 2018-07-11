@@ -25,13 +25,13 @@ WebUI.maximizeWindow()
 
 WebUiBuiltInKeywords.click(findTestObject('Login/START_STRATEGISING_BUTTON'))
 
-WebUI.sendKeys(findTestObject('Login/EMAIL_TEXTFIELD'), 'jmanzanares@you-source.com')
+WebUI.sendKeys(findTestObject('Login/EMAIL_TEXTFIELD'), 'noreply@you-source.com')
 
 WebUI.click(findTestObject('Login/NEXT_BUTTON'))
 
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Login/PASSWORD_TEXTFIELD'), 5)
 
-WebUiBuiltInKeywords.sendKeys(findTestObject('Login/PASSWORD_TEXTFIELD'), '07iwbiSPL13')
+WebUiBuiltInKeywords.sendKeys(findTestObject('Login/PASSWORD_TEXTFIELD'), 'yousource321')
 
 WebUiBuiltInKeywords.click(findTestObject('Login/SIGN_IN_BUTTON'))
 

@@ -19,15 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('HomePage/MENU/IDEATION_LINK'))
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/TOPICS/STRAT_PLAN_LINK'), 5)
 
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('IDEATION/TOPICS/DASHBOARD_LINK'), 5)
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/TOPICS/DASHBOARD_LINK'), 5)
 
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('IDEATION/TOPICS/DASHBOARD_LINK'), 5)
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/TOPICS/TRENDING_LINK'), 5)
 
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('IDEATION/TOPICS/CHALLENGES_LINK'), 5)
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/TOPICS/TASKS_LINK'), 5)
 
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('IDEATION/TOPICS/IDEAS_LINK'), 5)
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/TOPICS/RISKS_LINK'), 5)
 
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('IDEATION/TOPICS/INNOVATORS_LINK'), 5)
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/TOPICS/VISION_LINK'), 5)
+
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/TOPICS/WHY_LINK'), 5)
+
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('STRATEGY/TOPICS/DIRECTION_LINK'), 5)
 
