@@ -4,10 +4,16 @@
    <name>WORKSPACES_LINK</name>
    <tag></tag>
    <elementGuidId>cb7c9ce1-36fe-4f5e-8538-b63dde805b7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'workspaces' or . = 'workspaces')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
